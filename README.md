@@ -9,7 +9,7 @@ This project demonstrates the creation and analysis of a Möbius strip using Pyt
 3) 3D Visualization: Generate a detailed 3D plot of the Möbius strip.
 
 
-### Code Overview:
+## Code Overview:
 
 ### MobiusStrip Class:
 
@@ -40,9 +40,9 @@ Displays a 3D plot.
 
 ### Clone this repository:
   git clone <repository-url>
-### Install the required libraries:
+# Install the required libraries:
   pip install numpy matplotlib
-### Run the script:
+## Run the script:
    python mobius_strip.py
 
 ### Outputs
