@@ -13,19 +13,19 @@ This project demonstrates the creation and analysis of a Möbius strip using Pyt
 
 ### MobiusStrip Class:
 
-## Initialization:
+Initialization:
  Accepts radius, width, and resolution as inputs.
 
-## Mesh Generation: 
+ Mesh Generation: 
  Calculates the 3D coordinates of the Möbius strip.
 
-## Surface Area: 
+ Surface Area: 
  Uses numerical integration for accurate area approximation.
 
-## Edge Length: 
+ Edge Length: 
  Calculates the total length of the Möbius strip’s boundary.
 
-## Visualization: 
+ Visualization: 
  Renders a 3D plot using Matplotlib.
 
 ### Main Script:
@@ -36,11 +36,11 @@ Calculates and prints surface area and edge length.
 
 Displays a 3D plot.
 
-## How to Use:
+### How to Use:
 
-### Clone this repository:
+## Clone this repository:
   git clone <repository-url>
-# Install the required libraries:
+## Install the required libraries:
   pip install numpy matplotlib
 ## Run the script:
    python mobius_strip.py
