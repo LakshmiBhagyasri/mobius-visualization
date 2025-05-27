@@ -1,0 +1,35 @@
+Code Structure:
+The code is organized as a single Python class MobiusStrip that encapsulates everything related to the Möbius strip. The class constructor initializes parameters like radius, width, and resolution, and builds the mesh grids for parameters 
+𝑢 and v. The key methods include:
+
+_compute_coordinates(): Computes the 3D coordinates 
+
+(x,y,z) using the parametric equations of the Möbius strip.
+
+surface_area(): Approximates the surface area by numerically integrating the differential surface element using gradients and cross products of partial derivatives.
+
+edge_length(): Calculates the length of the edge by summing distances between consecutive points along the boundary.
+
+plot(): Visualizes the Möbius strip in 3D using matplotlib.
+
+
+
+Surface Area Approximation:
+The surface area is approximated by discretizing the parameter space into a grid. We compute the partial derivatives of the surface coordinates with respect to the parameters 
+𝑢
+u and 
+𝑣
+v. The magnitude of the cross product of these derivatives gives the differential area element at each point. Summing these local areas across the grid, weighted by the parameter increments, yields the total approximate surface area.
+
+
+
+
+Challenges Faced:
+Class Definition and Method Scope Errors:
+Running the code cell-by-cell in Jupyter led to errors because class methods and attributes were not accessible unless the entire class was defined in a single cell. Restructuring the code to include the full class in one cell resolved this issue.
+
+Complexity in Parametric Implementation:
+Translating the Möbius strip's parametric equations into code required precision to ensure correctness. Additionally, implementing numerical differentiation for surface area approximation demanded careful handling of partial derivatives and cross products.
+
+3D Visualization for Validation:
+Visualizing the Möbius strip in 3D was challenging but essential. It ensured the coordinate calculations matched the theoretical model and provided insight into the strip's unique geometric properties.
