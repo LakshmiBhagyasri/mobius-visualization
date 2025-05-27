@@ -36,7 +36,7 @@ Calculates and prints surface area and edge length.
 
 Displays a 3D plot.
 
-## How to Use
+## How to Use:
 
 ### Clone this repository:
   git clone <repository-url>
@@ -45,7 +45,7 @@ Displays a 3D plot.
 ### Run the script:
    python mobius_strip.py
 
-## Outputs
+### Outputs
 
 Surface Area: The approximate surface area of the Möbius strip.
 
